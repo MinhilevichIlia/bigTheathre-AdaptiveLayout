@@ -1,0 +1,58 @@
+@media (max-width:576px) {
+    .mainTextBlock {
+        margin: 0;
+    }
+    .aboutContainer {
+        grid-template-columns: none;
+        text-align: center;
+    }
+    .numberBlockContainer {
+        display: flex;
+        justify-content: space-around;
+        text-align: left;
+    }
+    .numberBlock h4 {
+        padding: 50px 0 40px 0;
+    }
+    .years {
+        margin: 0;
+    }
+    .bestTheatreContainer div:nth-child(2) p {
+        width: 310px;
+    }
+    .starsRating {
+        padding-bottom: 0;
+    }
+    .partnersContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+    .partnersContainer img:nth-child(5){
+        display: none;
+    }
+    .partnersContainer img:nth-child(6){
+        display: none;
+    }
+    .footerForm {
+        grid-template-areas:
+        "name company"
+        "telephone email"
+        "textarea textarea"
+        "button button"
+        "p p";
+        grid-gap: 50px;
+    }
+    .footerForm textarea {
+        width: 510px;
+    }
+    .footerForm input {
+        width: 230px;
+    }
+    .footerForm p{
+        text-align: center;
+        width: 435px;
+        margin: 0 auto;
+    }
+    .footerForm button{
+        margin: 0 auto;
+    }
+}
